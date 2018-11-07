@@ -1,0 +1,26 @@
+{
+  "name": "dorsetdigital/silverstripe-delete",
+  "description": "Changes the CMS 'Archive' text to 'Delete' for clarity",
+  "type": "silverstripe-vendormodule",
+  "homepage": "https://github.com/DorsetDigital/silverstripe-delete",
+  "keywords": ["silverstripe", "cms"],
+  "authors": [
+    {
+      "name": "Tim Burt",
+      "email": "tim@dorset-digital.net"
+    }
+  ],
+  "require": {
+    "silverstripe/vendor-plugin": "^1.0",
+    "silverstripe/cms": "^4.0"
+  },
+  "license": "BSD-3-Clause",
+  "autoload": {
+    "psr-4": {
+      "DorsetDigital\\SilverStripeDelete\\": "src/"
+    }
+  },
+  "extra": {
+  },
+  "minimum-stability": "dev"
+}

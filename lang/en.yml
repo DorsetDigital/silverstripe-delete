@@ -1,0 +1,21 @@
+en:
+  SilverStripe\CMS\BatchActions\CMSBatchAction_Archive:
+    RESULT: 'Deleted %d pages from draft and live, and sent them to the archive'
+    TITLE: 'Unpublish and delete'
+  SilverStripe\CMS\Controllers\CMSMain:
+    ARCHIVE: Archive
+    ARCHIVEDPAGE: 'Deleted page ''{title}'''
+    ArchiveWarning: 'Warning: This page will be unpublished before being deleted.\n\nAre you sure you want to proceed?'
+    ArchiveWarningWithCampaigns: 'Warning: This page will be unpublished and automatically removed from their associated {NumCampaigns} before being deleted.\n\nAre you sure you want to proceed?'
+    ArchiveWarningWithChildren: 'Warning: This page and all of its child pages will be unpublished before being deleted.\n\nAre you sure you want to proceed?'
+    ArchiveWarningWithChildrenAndCampaigns: 'Warning: This page and all of its child pages will be unpublished and automatically removed from their associated {NumCampaigns} before being deleted.\n\nAre you sure you want to proceed?'
+    RESTORE_DESC: 'Restore the deleted version to draft'
+    RESTORE_TO_ROOT_DESC: 'Restore the deleted version to draft as a top level page'
+    UNPUBLISH_AND_ARCHIVE: 'Unpublish and delete'
+  SilverStripe\CMS\Controllers\CMSSiteTreeFilter_DeletedPages:
+    Title: 'All pages, including deleted'
+  SilverStripe\CMS\Controllers\CMSSiteTreeFilter_StatusDeletedPages:
+    Title: 'Deleted pages'
+  SilverStripe\CMS\Model\SiteTree:
+    ARCHIVEDPAGEHELP: 'Page is removed from draft and live'
+    ARCHIVEDPAGESHORT: Deleted
